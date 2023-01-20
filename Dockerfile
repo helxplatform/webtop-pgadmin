@@ -1,4 +1,4 @@
-FROM containers.renci.org/helxplatform/webtop/base:v0.0.1
+FROM containers.renci.org/helxplatform/webtop/base:v0.0.2
 
 # Setup pgAdmin package repository, install pgAdmin
 RUN curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | \
