@@ -8,4 +8,3 @@ RUN curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | \
     apt update && apt-get -y install pgadmin4 pgadmin4-desktop
 
 COPY /root /
-COPY /config /
