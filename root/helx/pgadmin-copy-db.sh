@@ -2,7 +2,7 @@
 
 set -eoux pipefail
 
-# Add pgAdmin link to the Desktop.
+# Copy pgadmin configuration db to config directory.
 
 if [ ! -f $HOME/.pgadmin/pgadmin4.db ]
 then
